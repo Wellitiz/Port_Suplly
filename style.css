@@ -41,6 +41,7 @@ body{
     position: absolute;
     right: 0px;
     bottom: -73px;
+    background-color: #343E8B;
 }
 
 .foto1 img{
@@ -74,22 +75,15 @@ body{
     text-align: right;
 }
 
-
-
-
-
 .Servicos{
     padding-top: 40px;
-    background-color: purple;
 }
-
 
 .Ser1{
     display: flex;
     justify-content: space-between;
     width: 1200px;
     margin: 20px auto;
-    background-color: aqua;
 }
 
 .Ser2{
@@ -97,7 +91,6 @@ body{
     justify-content: space-between;
     width: 1200px;
     margin: 20px auto;
-    background-color: aqua;
 }
 
 .Ser3{
@@ -105,7 +98,6 @@ body{
     justify-content: space-between;
     width: 1200px;
     margin: 20px auto;
-    background-color: aqua;
 }
 
 .Ser4{
@@ -113,12 +105,11 @@ body{
     justify-content: space-around;
     width: 1200px;
     margin: 20px auto;
-    background-color: aqua;
 }
 
 .BlocoS{
     width: 270px;
-    background-color: red;
+    margin-bottom: 50px;
 }
 
 .Servicos_Nomes{
@@ -129,4 +120,37 @@ body{
     height: 150px;
     text-align: center;
     background-color: #343E8B;
+}
+
+
+
+.Foto2 img{
+    width: 100%;
+}
+
+.Sobre{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400PX;
+    background-color: #343E8B;
+}
+
+.S2{
+    display: flex;
+    color: white;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.S2 h3{
+    font-size: 36px;
+}
+
+.S2 p{
+    font-size: 24px;
+    width: 650px;
+    text-align: left;
 }
