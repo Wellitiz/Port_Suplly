@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -374,39 +378,160 @@ body{
 
 
 
+.contatos{
+    color: white;
+    background-color: #343E8B;
+    padding: 20px 0;
+    height: 250px;
+}
 
+.camp-contato{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
 
+.contat{
+    width: 450px;
+}
 
+.contat h3{
+    font-size: 24px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .valores .val .valor{
-    padding: 5px 30px;
+.contato{
+    justify-content: left;
     align-content: center;
-    background-color: #fff;
-    margin: 20px 0px;
+    margin: 10px 0;
+    height: 20px;
 }
 
-.valores .val .valor h3{
+#contato1{
+    background: url(./Assets/Telefone.png) no-repeat;
+    background-size: 20px;
+}
+
+#contato1:hover{
+    background: url(./Assets/Telefone-verde.png) no-repeat;
+    background-size: 20px;
+}
+
+#contato2{
+    background: url(./Assets/Whatsapp.png) no-repeat;
+    background-size: 20px;
+}
+
+#contato2:hover{
+    background: url(./Assets/Whatsapp-verde.png) no-repeat;
+    background-size: 20px;
+}
+
+#contato3{
+    background: url(./Assets/E-mail.png) no-repeat;
+    background-size: 20px;
+}
+
+#contato3:hover{
+    background: url(./Assets/E-mail-verde.png) no-repeat;
+    background-size: 20px;
+}
+
+.contato a{
+    padding: 0px 30px;
+}
+
+.contatos a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.contatos a:link:hover{
     color: green;
+    text-decoration: none;
 }
 
-.valores .val .valor p{
-    color: #343E8B;
-} */
+.contatos a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.contatos a:visited:hover{
+    color: green;
+    text-decoration: none;
+}
+
+.Redes{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.ImgRedes1{
+    width: 40px;
+    height: 40px;
+    background: url(./Assets/Facebook.png);
+    background-size: 40px 40px;
+}
+
+.ImgRedes1:hover{
+    width: 40px;
+    height: 40px;
+    background: url(./Assets/Facebook-verde.png);
+    background-size: 40px 40px;
+    transform: translate(-2px, -2px);
+    transition: 0.3s;
+}
+
+.ImgRedes2{
+    width: 40px;
+    height: 40px;
+    background: url(./Assets/Instagram.png);
+    background-size: 40px 40px;
+}
+
+.ImgRedes2:hover{
+    width: 40px;
+    height: 40px;
+    background: url(./Assets/Instagram-verde.png);
+    background-size: 40px 40px;
+    transform: translate(-2px, -2px);
+    transition: 0.3s;
+}
+
+.ImgRedes3{
+    width: 40px;
+    height: 40px;
+    background: url(./Assets/Linkedin.png);
+    background-size: 40px 40px;
+}
+
+.ImgRedes3:hover{
+    width: 40px;
+    height: 40px;
+    background: url(./Assets/Linkedin-verde.png);
+    background-size: 40px 40px;
+    transform: translate(-2px, -2px);
+    transition: 0.3s;
+}
+
+.endereco{
+    width: 450px;
+    text-align: end;
+}
+
+.endereco h3{
+    font-size: 24px;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    background-color: #1E1E1E;
+}
+
+.copy h5{
+    color: white;
+    text-align: center;
+}
