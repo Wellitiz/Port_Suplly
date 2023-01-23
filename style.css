@@ -10,6 +10,16 @@ body{
     font-family: 'Inder', sans-serif;
 }
 
+.AncSer{
+    position: relative;
+    top: -85px;
+}
+
+.AncSob{
+    position: relative;
+    top: 420px;
+}
+
 .Topo{
     width: 100%;
     height: 85px;
@@ -17,12 +27,10 @@ body{
     position: fixed;
     z-index: 3;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
-
 }
 
 .Menu{
     display: flex;
-    /* position: fixed; */
     justify-content: space-between;
     align-items: center;
     height: 85px;
@@ -75,6 +83,7 @@ body{
     width: 100%;
     height: 240PX;
     background-color: #343E8B;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 .NS2{
@@ -126,18 +135,37 @@ body{
 
 .Ser4{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 100px;
     width: 1000px;
     margin: 20px auto;
 }
 
 .BlocoS{
     width: 240px;
+    align-content: center;
     margin-bottom: 50px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.BlocoS h3{
+    margin:20px 20px;
+    font-size:16px;
+}
+
+.BlocoS p{
+    font-size: 12px;
+    margin: 0 20px;
 }
 
 .BlocoS img{
     width: 240px;
+}
+
+.BlocoS:hover{
+    transform: translate(-2px, -2px);
+    transition: 0.3s;
+
 }
 
 .Servicos_Nomes{
@@ -372,11 +400,6 @@ body{
 .valor:hover h3{
     color: green;
 }
-
-
-
-
-
 
 .contatos{
     color: white;
