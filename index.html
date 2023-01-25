@@ -10,6 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Inder&display=swap" rel="stylesheet">
         <link rel="icon" href="./Assets/Icone.png">
+        <script src="script.js" defer></script>
     </head>
 
     <body>
@@ -29,10 +30,80 @@
 
         <main>
             <a name="Home"></a>
-            <div class="Imagem_destaque">                
-                <div class="foto1">
-                    <img src="./Assets/Foto 1.jpg" alt="Imagem do Navio Seven Vikings, um navio Norueguês de Suprimento Offshore, As cores dele são branco e vermelho, com um heliponto encima, com o fundo das aguas do norte">
-                </div>                
+            <div class="destaques"></div>
+                <div class="slider">                
+                    <div class="slides">
+                        <!-- Botões slides -->
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <input type="radio" name="radio-btn" id="radio5">
+                        <input type="radio" name="radio-btn" id="radio6">
+                        <input type="radio" name="radio-btn" id="radio7">
+                        <input type="radio" name="radio-btn" id="radio8">
+                        <input type="radio" name="radio-btn" id="radio9">
+                        <input type="radio" name="radio-btn" id="radio10">
+                    
+                        <!-- Imagens destaque -->
+                        <div class="slide first">
+                            <img src="./Assets/Foto 1.jpg" alt="img 1">
+                        </div>
+                        <div class="slide">
+                            <img src="./Assets/Foto 2.jpg" alt="img 2">
+                        </div>
+                        <div class="slide">
+                            <img src="./Assets/Foto 3.jpg" alt="img 3">
+                        </div>
+                        <div class="slide">
+                            <img src="./Assets/Foto 4.jpg" alt="img 4">
+                        </div>
+                        <div class="slide">
+                            <img src="./Assets/Foto 5.jpg" alt="img 5">
+                        </div>
+                        <div class="slide">
+                            <img src="./Assets/Foto 6.jpg" alt="img 6">
+                        </div>
+                        <div class="slide">
+                            <img src="./Assets/Foto 7.jpg" alt="img 7">
+                        </div>
+                        <div class="slide">
+                            <img src="./Assets/Foto 8.jpg" alt="img 8">
+                        </div>
+                        <div class="slide">
+                            <img src="./Assets/Foto 9.jpg" alt="img 9">
+                        </div>
+                        <div class="slide">
+                            <img src="./Assets/Foto 10.jpg" alt="img 10">
+                        </div>
+
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                            <div class="auto-btn5"></div>
+                            <div class="auto-btn6"></div>
+                            <div class="auto-btn7"></div>
+                            <div class="auto-btn8"></div>
+                            <div class="auto-btn9"></div>
+                            <div class="auto-btn10"></div>
+                        </div>                        
+                    </div>            
+
+                    <div class="manual-navigation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                        <label for="radio5" class="manual-btn"></label>
+                        <label for="radio6" class="manual-btn"></label>
+                        <label for="radio7" class="manual-btn"></label>
+                        <label for="radio8" class="manual-btn"></label>
+                        <label for="radio9" class="manual-btn"></label>
+                        <label for="radio10" class="manual-btn"></label>
+                    </div>
+                </div>
             </div>
 
             <div class="AncSer">
@@ -206,7 +277,7 @@
                 <div class="AncSob">
                     <a name="Sobre"></a>
                 </div>      
-                <img src="./Assets/Foto 2.jpg" alt="Foto de um navio de tramporte de containers vista de cima, navegando no mar com o por do sol refletindo na agua.">
+                <img src="./Assets/Foto 11.jpg" alt="Foto de um navio de tramporte de containers vista de cima, navegando no mar com o por do sol refletindo na agua.">
                 <div class="Sobre">                
                     <div class="S2">                        
                         <p>A PORT SUPPLY é uma agência marítima jovem e altamente dinâmica que iniciou suas atividades no início de 2010.
@@ -335,11 +406,10 @@
                 </div>
             </div>
 
-            <div>
-                <a name="Contatos"></a>
-            </div>
-
-            <div class="contatos"> 
+            <div class="contatos">
+                <div>
+                    <a name="Contatos"></a>
+                </div>
                 <div class="camp-contato">              
                     <div class="contat">                        
                         <h3>CONTATOS</h3>
