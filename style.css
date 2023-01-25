@@ -58,20 +58,6 @@ body{
 
 }
 
-.Frase{
-    display: flex;
-    color: white;
-    width: 600px;
-    height: 170px;
-    justify-content: center;
-    align-items: center;
-    opacity: 0.65;
-    position: absolute;
-    right: 0px;
-    bottom: -73px;
-    background-color: #343E8B;
-}
-
 .foto1 img{
     margin-bottom: -4px;
     width: 100%;
@@ -561,9 +547,6 @@ body{
 }
 
 
-
-
-
 @media screen and (max-width: 1000px){
     .Menu{
         justify-content: center;
@@ -572,12 +555,6 @@ body{
 
     .paginas{
         gap: 30px;
-    }
-
-    .Frase{
-        width: 400px;
-        height: 100px;
-        bottom: 130px;
     }
 
     .foto1 img{
@@ -747,9 +724,6 @@ body{
     }
 }
 
-
-
-
 @media screen and (max-width:700px){
     .Topo{
         height: 50px;
@@ -771,17 +745,6 @@ body{
     .paginas a{
         font-size: 18px;
         text-align: center;
-    }
-
-    .Frase{
-        width: 200px;
-        height: 80px;
-        bottom: 230px;
-        text-align: center;
-    }
-
-    .Frase p{
-        font-size: 12px;
     }
 
     .NServicos{
@@ -1018,7 +981,6 @@ body{
 
 }
 
-
 @media screen and (max-width:500px){
     .Topo{
         height: 50px;
@@ -1042,17 +1004,6 @@ body{
         text-align: center;
     }
 
-    .Frase{
-        width: 120px;
-        height: 80px;
-        bottom: 380px;
-        text-align: center;
-    }
-
-    .Frase p{
-        font-size: 10px;
-    }
-
     .NServicos{
         height: 120px;
     }
@@ -1071,18 +1022,24 @@ body{
     }
 
     .Ser1{
+        justify-content: center;
+        gap: 20px;
         width: 100%;
         height: 180px;
         margin: 10px auto;
     }
 
     .Ser2{
+        justify-content: center;
+        gap: 20px;
         width: 100%;
         height: 180px;
         margin: 10px auto;
     }
 
     .Ser3{
+        justify-content: center;
+        gap: 20px;
         width: 100%;
         height: 180px;
         margin: 10px auto;
@@ -1092,7 +1049,7 @@ body{
         width: 100%;
         height: 180px;
         margin: 10px auto;
-        gap: 10px;
+        gap: 20px;
     }
 
     .BlocoS{
@@ -1112,7 +1069,7 @@ body{
     }
 
     .Img-Ser{
-        width: 70px;
+        width: 80px;
     }
 
     .Img-Ser img{
@@ -1120,14 +1077,15 @@ body{
     }
 
     .Servicos_Nomes{
+        align-content: center;
         margin-top: 0px;
-        padding-top: 0;
-        width: 70px;
+        padding: 0;
+        width: 80px;
         height: 120px;
     }
 
-        .Sobre{
-            height: 230px;
+    .Sobre{
+        height: 230px;
     }
 
     .S2{
