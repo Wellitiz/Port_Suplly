@@ -4,7 +4,7 @@ document.getElementById('radio1');
 setInterval(function(){
   nextImage();
 
-}, 8000)
+}, 6000)
 
 function nextImage(){
   time++;
