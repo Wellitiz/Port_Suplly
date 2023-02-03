@@ -61,6 +61,7 @@ body{
 
 /* Slides */
 .destaques{
+    margin: 0;
     padding: 85px 0 0 0;
     width: 100%;
     display: flex;
@@ -544,6 +545,7 @@ body{
 }
 
 .contato a{
+    background-color: red;
     padding: 0px 30px;
 }
 
